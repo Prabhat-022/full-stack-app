@@ -1,5 +1,5 @@
 {
-  "name": "full-stack-app",
+  "name": "f-s-a",
   "version": "1.0.0",
   "description": "A full stack app with a React frontend and an Express backend",
   "main": "server/index.js",
@@ -8,22 +8,9 @@
     "server": "cd server && npm start",
     "dev": "concurrently \"npm run client\" \"npm run server\""
   },
-  "keywords": [
-    "full-stack",
-    "react",
-    "express",
-    "nodejs"
-  ],
-  "author": "prabhat kumar",
+  "keywords": [],
+  "author": "prabhat kumar ",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/prabhat-022/full-stack-app.git"
-  },
-  "bugs": {
-    "url": "https://github.com/prabhat-022/full-stack-app/issues"
-  },
-  "homepage": "https://github.com/prabhat-022/full-stack-app",
   "dependencies": {
     "concurrently": "^7.5.0"
   }
