@@ -1,5 +1,5 @@
 {
-  "name": "full-stack-app",
+  "name": "@prabhat_022/full-stack-app",
   "version": "1.0.0",
   "description": "A full stack app with a React frontend and an Express backend",
   "main": "server/index.js",
