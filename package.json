@@ -1,0 +1,17 @@
+{
+  "name": "full-stack-app",
+  "version": "1.0.0",
+  "description": "A full stack app with a React frontend and an Express backend",
+  "main": "server/index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.5.0"
+  }
+}
